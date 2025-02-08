@@ -105,18 +105,18 @@ Lab112: Responsible AI/
   - Mitigating bias via post-processing and reduction methods
 
 - **Step-by-step Guidance:**
-1. Step 1: Load the dataset containing credit loan outcomes.
-2. Step 2: Preprocess the data by handling missing values, encoding categorical variables, and splitting the data into training and testing sets.
-3. Step 3: Train a fairness-unaware model to predict loan defaults using the training data.
-4. Step 4: Evaluate the model's performance using standard metrics such as accuracy, precision, recall, and ROC-AUC.
-5. Step 5: Use the Fairlearn toolkit to assess the fairness of the model.
-6. Step 6: Calculate fairness metrics such as equalized odds difference, false negative rate, false positive rate, and selection rate.
-7. Step 7: Identify any disparities in the model's performance across different demographic groups.
-8. Step 8: Apply fairness mitigation techniques using the Fairlearn toolkit.
-9. Step 9: Implement methods such as ThresholdOptimizer and ExponentiatedGradient to reduce unfairness.
-10. Step 10: Re-evaluate the model's performance and fairness metrics after applying mitigation techniques.
-11. Step 11: Compare the performance and fairness metrics of the original and mitigated models.
-12. Step 12: Reflect on the ethical considerations and importance of fairness in credit loan decisions.
+  - Step 1: Load the dataset containing credit loan outcomes.
+  - Step 2: Preprocess the data by handling missing values, encoding categorical variables, and splitting the data into training and testing sets.
+  - Step 3: Train a fairness-unaware model to predict loan defaults using the training data.
+  - Step 4: Evaluate the model's performance using standard metrics such as accuracy, precision, recall, and ROC-AUC.
+  - Step 5: Use the Fairlearn toolkit to assess the fairness of the model.
+  - Step 6: Calculate fairness metrics such as equalized odds difference, false negative rate, false positive rate, and selection rate.
+  - Step 7: Identify any disparities in the model's performance across different demographic groups.
+  - Step 8: Apply fairness mitigation techniques using the Fairlearn toolkit.
+  - Step 9: Implement methods such as ThresholdOptimizer and ExponentiatedGradient to reduce unfairness.
+  - Step 10: Re-evaluate the model's performance and fairness metrics after applying mitigation techniques.
+  - Step 11: Compare the performance and fairness metrics of the original and mitigated models.
+  - Step 12: Reflect on the ethical considerations and importance of fairness in credit loan decisions.
 
 ---
 
