@@ -5,6 +5,7 @@ import random
 import string
 import gradio as gr
 
+
 class Chatbot:
     def __init__(self):
         load_dotenv()
@@ -66,7 +67,7 @@ class Chatbot:
         chatbot = gr.ChatInterface(
             self.get_response,
             chatbot=gr.Chatbot(label="AImee: Insurance AI Assistant", value=[[None, "Hello! How can I help you today?"]]),
-            title="AImee: The charismatic AI Assistant from Serene Life Insurance Company",
+            title="AImee: The AI Assistant from Serene Life Insurance Company",
             description="This is an AI Assistant that can help you to understand Life Insurance, Health Insurance, Auto Insurance, Home Insurance, Business Insurance.",
         )
 
