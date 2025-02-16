@@ -59,11 +59,9 @@ Lab112: Responsible AI/
 ---
 
 ## Prerequisites
-s
 - Python 3.11+
-- Familiarity with data science libraries (e.g., Pandas, NumPy, scikit-learn)
+- Familiarity with Python and working with Jupyter notebooks
 - Basic understanding of fairness and responsible AI harms.
-
 ---
 
 ## Installation
